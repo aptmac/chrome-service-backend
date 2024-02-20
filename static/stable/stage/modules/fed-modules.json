@@ -318,6 +318,20 @@
           }
       ]
   },
+  "runtimes": {
+    "manifestLocation": "/apps/runtimes/fed-mods.json",
+    "modules": [
+        {
+            "id": "runtimes",
+            "module": "./RootApp",
+            "routes": [
+                {
+                    "pathname": "/application-services/middleware-inventory"
+                }
+            ]
+        }
+    ]
+  },
   "inventory": {
       "manifestLocation": "/apps/inventory/fed-mods.json",
       "modules": [
