@@ -206,6 +206,19 @@
         "links": [
           "subscriptions.subscriptionsInventory"
         ]
+      },
+      {
+        "isGroup": true,
+        "title": "Middleware Inventory",
+        "links": [
+          {
+            "title": "Middleware Inventory",
+            "filterable": false,
+            "href": "/application-services/middleware-inventory",
+            "icon": "AppServicesIcon",
+            "description": "Some optional card description can go here"
+          }
+        ]
       }
     ]
   },

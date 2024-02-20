@@ -140,6 +140,12 @@
       "title": "Red Hat Insights",
       "navItems": [
         {
+          "id": "middlewareInventory",
+          "appId": "middlewareInventory",
+          "title": "Middleware Inventory",
+          "href": "/application-services/middleware-inventory"
+        },
+        {
           "title": "Subscriptions",
           "expandable": true,
           "routes": [
