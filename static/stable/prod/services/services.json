@@ -187,15 +187,26 @@
         "links": [
           "rhel.imageBuilder",
           "rhel.inventory",
-          "rhel.groups"
-
+          "rhel.groups",
+          {
+            "title": "Runtimes Inventory",
+            "href": "/insights/runtimes-inventory",
+            "icon": "InsightsIcon",
+            "description": "View details about your Red Hat Runtimes applications and services."
+          }
         ]
       },
       {
         "isGroup": true,
         "title": "OpenShift",
         "links": [
-          "openshift.clusters"
+          "openshift.clusters",
+          {
+            "title": "Runtimes Inventory",
+            "href": "/openshift/runtimes-inventory",
+            "icon": "OpenShiftIcon",
+            "description": "View details about your Red Hat Runtimes applications and services running on OpenShift."
+          }
         ]
       },
       {

@@ -86,6 +86,15 @@
           ]
         },
         {
+          "id": "runtimesInventory",
+          "appId": "runtimes",
+          "title": "Runtimes Inventory",
+          "href": "/insights/runtimes-inventory",
+          "icon": "InsightsIcon",
+          "product": "Red Hat Insights",
+          "subtitle": "Red Hat Insights for RHEL"
+        },
+        {
           "title": "System Configuration",
           "expandable": true,
           "routes": [

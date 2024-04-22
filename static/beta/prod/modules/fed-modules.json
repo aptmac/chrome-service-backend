@@ -1024,6 +1024,19 @@
     },
     "runtimes": {
         "manifestLocation": "/apps/runtimes/fed-mods.json",
-        "modules": []
+        "modules": [
+          {
+              "id": "runtimes",
+              "module": "./RootApp",
+              "routes": [
+                  {
+                      "pathname": "openshift/runtimes-inventory"
+                  },
+                  {
+                      "pathname": "insights/runtimes-inventory"
+                  }
+              ]
+          }
+        ]
     }
 }

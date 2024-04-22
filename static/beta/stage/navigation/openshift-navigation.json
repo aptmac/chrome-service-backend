@@ -97,6 +97,13 @@
             "title": "Red Hat Insights",
             "navItems": [
                 {
+                    "id": "runtimesInventory",
+                    "appId": "runtimes",
+                    "title": "Runtimes Inventory",
+                    "href": "/openshift/runtimes-inventory",
+                    "product": "Red Hat OpenShift Cluster Manager"
+                },
+                {
                     "title": "Advisor",
                     "expandable": true,
                     "routes": [
